@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>N4230B Flight Hours</title>
+  <meta name="description" content="How many hours has N4230B flown in the last 12 months? Crowd-sourced ADS-B data, updated daily.">
+  <meta property="og:title" content="N4230B Flight Hours">
+  <meta property="og:description" content="Official Flight Hours Surveillance Bureau. Totally scientific.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <script src="vendor/vue-3.5.44.global.prod.js"></script>
+</head>
+<body>
+  <div id="app" v-cloak>
+    <header>
+      <h1>Chase Flies!</h1>
+      <h1>(sometimes)</h1>
+      <p class="subtitle">A Flight Time Accountability Partner</p>
+    </header>
+
+    <section class="hero">
+      <p class="label">Hours flown in the last 12 months</p>
+      <p class="big">{{ hours(last12.seconds) }}</p>
+      <p>{{ last12.count }} flights</p>
+    </section>
+
+    <section class="status">
+      <p v-if="loading">Snooping...</p>
+      <p v-else-if="lastUpdated">Last updated on {{ fmtDateTime(lastUpdated) }}.</p>
+      <p v-if="error" class="error">{{ error }}</p>
+      <p v-if="windowStart" class="note">
+        Recorded flights (since {{ fmtDate(windowStart) }}):
+        {{ hours(allTime.seconds) }} over {{ allTime.count }} flights.
+      </p>
+    </section>
+
+    <section class="quote">
+      <p>
+        It's worth having a plane. Even if you never fly it, you can at least tell people you have one.
+        <span>- Chase, probably<span>
+      </p>
+    </section>
+
+    <section v-if="highlights.length" class="highlights">
+      <h2>THE HIGHLIGHTS</h2>
+      <div v-for="h in highlights" :key="h.title" class="highlight">
+        <p class="label">{{ h.title }}</p>
+        <p class="value">{{ h.value }}</p>
+        <p class="detail">{{ h.detail }}</p>
+      </div>
+    </section>
+
+    <section class="quote">
+      <p>
+        I've always loved flying. Loved it since I was just a child. Always been my dream. A big dream. Like, a really big dream.
+        <span>- Chase, probably</span>
+      </p>
+    </section>
+
+    <details class="all-flights">
+      <summary>All flights ({{ allTime.count }})</summary>
+
+      <section class="filters">
+        <label>
+          Year
+          <select v-model="year">
+            <option value="">All</option>
+            <option v-for="y in years" :key="y" :value="y">{{ y }}</option>
+          </select>
+        </label>
+        <label>
+          Month
+          <select v-model="month">
+            <option value="">All</option>
+            <option v-for="(m, i) in MONTHS" :key="m" :value="i">{{ m }}</option>
+          </select>
+        </label>
+        <p>Selected: {{ filteredTotal.count }} flights, {{ hours(filteredTotal.seconds) }}</p>
+      </section>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="f in filtered" :key="f.id">
+            <td>{{ fmtDateTime(f.start) }}</td>
+            <td>{{ f.from || '?' }}</td>
+            <td>{{ f.to || '?' }}</td>
+            <td>{{ hm(f.end - f.start) }}</td>
+          </tr>
+          <tr v-if="!filtered.length && !loading">
+            <td colspan="4">No flights. Suspicious.</td>
+          </tr>
+        </tbody>
+      </table>
+    </details>
+
+    <footer>
+      Data: <a href="https://adsb.aero">adsb.aero</a> (crowd-sourced ADS-B via adsb.lol).
+      If a flight isn't here, the receivers didn't see it. Not admissible in court.
+    </footer>
+  </div>
+
+  <script>
+    const { createApp, ref, computed, onMounted } = Vue;
+
+    const DAY_MS = 24 * 60 * 60 * 1000;
+    const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+    function slim(f) {
+      return {
+        id: f.flight_id,
+        start: Date.parse(f.start_ts),
+        end: Date.parse(f.end_ts),
+        from: f.start_airport_name || f.start_airport_ident,
+        to: f.end_airport_name || f.end_airport_ident,
+      };
+    }
+
+    function sum(list) {
+      return { count: list.length, seconds: list.reduce((s, f) => s + (f.end - f.start) / 1000, 0) };
+    }
+
+    createApp({
+      setup() {
+        const flights = ref([]);
+        const loading = ref(true);
+        const error = ref('');
+        const lastUpdated = ref(null);
+        const windowStart = ref(null);
+        const now = Date.now();
+        const year = ref('');
+        const month = ref('');
+
+        const twoYearsAgo = new Date(now);
+        twoYearsAgo.setFullYear(twoYearsAgo.getFullYear() - 2);
+
+        const all = computed(() => flights.value.filter(f => f.start >= twoYearsAgo.getTime()));
+        const allTime = computed(() => sum(all.value));
+        const last12 = computed(() => sum(all.value.filter(f => f.start >= now - 365 * DAY_MS)));
+
+        const years = computed(() => [...new Set(all.value.map(f => new Date(f.start).getFullYear()))]);
+        const filtered = computed(() => all.value.filter(f => {
+          const d = new Date(f.start);
+          return (year.value === '' || d.getFullYear() === year.value)
+            && (month.value === '' || d.getMonth() === month.value);
+        }));
+        const filteredTotal = computed(() => sum(filtered.value));
+
+        onMounted(async () => {
+          try {
+            const res = await fetch('flights.json', { cache: 'no-cache' });
+            if (!res.ok) throw new Error(`flights.json returned ${res.status}`);
+            const data = await res.json();
+            flights.value = Object.values(data.flights).map(slim).sort((a, b) => b.start - a.start);
+            lastUpdated.value = Date.parse(data.last_updated);
+            windowStart.value = Math.max(Date.parse(data.window_start), twoYearsAgo.getTime());
+          } catch (e) {
+            error.value = `Surveillance interrupted: ${e.message}`;
+          } finally {
+            loading.value = false;
+          }
+        });
+
+        const hours = s => `${(s / 3600).toFixed(1)} hrs`;
+        const hm = ms => {
+          const m = Math.round(ms / 60000);
+          return `${Math.floor(m / 60)}h ${String(m % 60).padStart(2, '0')}m`;
+        };
+        const fmtDate = t => new Date(t).toLocaleDateString();
+        const fmtDateTime = t => new Date(t).toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' });
+        const route = f => `${f.from || '?'} → ${f.to || '?'}`;
+        const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
+
+        const highlights = computed(() => {
+          const list = all.value;
+          if (!list.length) return [];
+          const out = [];
+          const byDuration = [...list].sort((a, b) => (b.end - b.start) - (a.end - a.start));
+
+          const daysSince = Math.floor((now - list[0].end) / DAY_MS);
+          out.push({
+            title: 'Days since last flight',
+            value: daysSince === 0 ? 'Today!' : plural(daysSince, 'day'),
+            detail: daysSince > 30 ? 'The plane misses you.' : `${fmtDate(list[0].start)}: ${route(list[0])}`,
+          });
+
+          const longest = byDuration[0];
+          out.push({
+            title: 'Longest flight evarrr!',
+            value: hm(longest.end - longest.start),
+            detail: `${fmtDate(longest.start)}: ${route(longest)}`,
+          });
+
+          const shortest = byDuration[byDuration.length - 1];
+          out.push({
+            title: 'Blink and you missed it',
+            value: hm(shortest.end - shortest.start),
+            detail: `${fmtDate(shortest.start)}: ${route(shortest)}`,
+          });
+
+          const months = {};
+          for (const f of list) {
+            const d = new Date(f.start);
+            const key = `${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
+            (months[key] ||= []).push(f);
+          }
+          const [busiestMonth, busiestFlights] = Object.entries(months)
+            .sort((a, b) => sum(b[1]).seconds - sum(a[1]).seconds)[0];
+          out.push({
+            title: 'Busiest month',
+            value: busiestMonth,
+            detail: `${hours(sum(busiestFlights).seconds)} over ${plural(busiestFlights.length, 'flight')}`,
+          });
+
+          let drought = null;
+          for (let i = 0; i < list.length - 1; i++) {
+            const gap = list[i].start - list[i + 1].end;
+            if (!drought || gap > drought.gap) drought = { gap, from: list[i + 1].end, to: list[i].start };
+          }
+          if (drought) {
+            out.push({
+              title: 'Longest drought',
+              value: plural(Math.floor(drought.gap / DAY_MS), 'day'),
+              detail: `${fmtDate(drought.from)} to ${fmtDate(drought.to)}`,
+            });
+          }
+
+          const visits = {};
+          for (const f of list) {
+            for (const a of [f.from, f.to]) if (a) visits[a] = (visits[a] || 0) + 1;
+          }
+          const [home, ...others] = Object.entries(visits).sort((a, b) => b[1] - a[1]);
+          if (others.length) {
+            out.push({
+              title: 'Favorite getaway',
+              value: others[0][0],
+              detail: `${plural(others[0][1], 'visit')}`,
+            });
+          }
+
+          return out;
+        });
+
+        return {
+          MONTHS, loading, error, lastUpdated, windowStart, highlights,
+          year, month, years, filtered, filteredTotal, allTime, last12,
+          hours, hm, fmtDate, fmtDateTime,
+        };
+      },
+    }).mount('#app');
+  </script>
+</body>
+</html>
