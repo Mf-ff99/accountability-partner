@@ -1,4 +1,4 @@
-"""Download N4230B flights from adsb.aero into flights.json.
+"""Download N4EK flights from adsb.aero into flights.json.
 
 First run backfills the last two years (or as far as the archive goes).
 Later runs only fetch flights since the previous run, so run it once a day.
@@ -10,7 +10,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 API = "https://adsb.aero/api/v1"
-REGISTRATION = "N4230B"
+REGISTRATION = "N4EK"
 OUT = Path(__file__).parent / "site" / "flights.json"
 # Flights are ingested in daily batches, so re-read a few days of overlap.
 OVERLAP = timedelta(days=3)
@@ -20,7 +20,7 @@ def request(path, body=None):
     req = urllib.request.Request(
         API + path,
         data=json.dumps(body).encode() if body is not None else None,
-        headers={"Content-Type": "application/json", "User-Agent": "n4230b-flight-hours"},
+        headers={"Content-Type": "application/json", "User-Agent": f"{REGISTRATION.lower()}-flight-hours"},
     )
     with urllib.request.urlopen(req, timeout=60) as res:
         return json.load(res)
@@ -59,6 +59,9 @@ def main():
     while True:
         page = request("/query", {**body, "cursor": cursor} if cursor else body)
         for f in page["flights"]:
+            # The API only matches by prefix, so N4EK would also match N4EKA etc.
+            if f.get("registration") != REGISTRATION:
+                continue
             flights[f["flight_id"]] = {k: v for k, v in f.items() if v is not None}
         print(f"read back to {page['window_from'][:10]}, {len(flights)} flights")
         cursor = page["cursor"]

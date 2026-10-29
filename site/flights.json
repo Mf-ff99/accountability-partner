@@ -1,1924 +1,1317 @@
 {
  "flights": {
-  "a5091e:2026-09-28T12:18:37Z": {
-   "flight_id": "a5091e:2026-09-28T12:18:37Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
+  "a4a85d:2026-08-31T12:37:35Z": {
+   "flight_id": "a4a85d:2026-08-31T12:37:35Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
    "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-09-28T12:18:37.870000Z",
-   "end_ts": "2026-09-28T12:23:31.710000Z",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2026-08-31T12:37:35.130000Z",
+   "end_ts": "2026-08-31T13:40:10.860000Z",
    "start_point": {
     "type": "Point",
     "coordinates": [
-     -82.464911,
-     28.978592,
-     2050.0
+     -82.404768,
+     27.692139,
+     1200.0
     ]
    },
    "end_point": {
     "type": "Point",
     "coordinates": [
-     -82.580848,
-     28.888596,
-     1025.0
-    ]
-   },
-   "point_count": 6,
-   "raw_point_count": 10,
-   "ingest_batch_date": "2026-09-28"
-  },
-  "a5091e:2026-09-25T14:05:37Z": {
-   "flight_id": "a5091e:2026-09-25T14:05:37Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-09-25T14:05:37.180000Z",
-   "end_ts": "2026-09-25T15:14:44.680000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.35996,
-     29.084656,
-     600.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.415125,
-     29.030162,
-     825.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "SEVEN FEATHERS",
-   "point_count": 177,
-   "raw_point_count": 657,
-   "ingest_batch_date": "2026-09-25"
-  },
-  "a5091e:2026-08-27T13:04:19Z": {
-   "flight_id": "a5091e:2026-08-27T13:04:19Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-08-27T13:04:19.770000Z",
-   "end_ts": "2026-08-27T13:12:34.640000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.369256,
-     29.029129,
-     1250.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.351984,
-     29.08287,
-     425.0
-    ]
-   },
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 35,
-   "raw_point_count": 145,
-   "ingest_batch_date": "2026-08-27"
-  },
-  "a5091e:2026-08-27T12:13:16Z": {
-   "flight_id": "a5091e:2026-08-27T12:13:16Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-08-27T12:13:16.800000Z",
-   "end_ts": "2026-08-27T12:47:20.790000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.367988,
-     29.021942,
-     1550.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.351984,
-     29.082504,
-     450.0
-    ]
-   },
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 104,
-   "raw_point_count": 349,
-   "ingest_batch_date": "2026-08-27"
-  },
-  "a5091e:2026-07-24T13:48:53Z": {
-   "flight_id": "a5091e:2026-07-24T13:48:53Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-07-24T13:48:53.340000Z",
-   "end_ts": "2026-07-24T14:21:12.940000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -81.741405,
-     28.073793,
-     350.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.347161,
-     29.081742,
-     400.0
-    ]
-   },
-   "start_airport_ident": "KGIF",
-   "start_airport_name": "WINTER HAVEN RGNL",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 51,
-   "raw_point_count": 279,
-   "ingest_batch_date": "2026-07-24"
-  },
-  "a5091e:2026-07-24T13:16:21Z": {
-   "flight_id": "a5091e:2026-07-24T13:16:21Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-07-24T13:16:21.070000Z",
-   "end_ts": "2026-07-24T13:23:58.620000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -81.754338,
-     27.963364,
-     750.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -81.778001,
-     28.047455,
-     425.0
-    ]
-   },
-   "start_airport_ident": "KBOW",
-   "start_airport_name": "BARTOW EXEC",
-   "end_airport_name": "JACK BROWNS",
-   "point_count": 22,
-   "raw_point_count": 64,
-   "ingest_batch_date": "2026-07-24"
-  },
-  "a5091e:2026-07-24T12:08:26Z": {
-   "flight_id": "a5091e:2026-07-24T12:08:26Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-07-24T12:08:26.510000Z",
-   "end_ts": "2026-07-24T12:40:35.340000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.394926,
-     29.022354,
-     1100.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -81.811793,
-     27.949265,
-     550.0
-    ]
-   },
-   "end_airport_ident": "KBOW",
-   "end_airport_name": "BARTOW EXEC",
-   "point_count": 42,
-   "raw_point_count": 173,
-   "ingest_batch_date": "2026-07-24"
-  },
-  "a5091e:2026-06-30T13:19:01Z": {
-   "flight_id": "a5091e:2026-06-30T13:19:01Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-06-30T13:19:01.230000Z",
-   "end_ts": "2026-06-30T13:31:18.870000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.460255,
-     29.383726,
-     675.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.46661,
-     29.051669,
-     1625.0
-    ]
-   },
-   "start_airport_name": "WILLISTON MUNICIPAL AIRPORT",
-   "point_count": 50,
-   "raw_point_count": 143,
-   "ingest_batch_date": "2026-06-30"
-  },
-  "a5091e:2026-06-30T12:20:21Z": {
-   "flight_id": "a5091e:2026-06-30T12:20:21Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-06-30T12:20:21.440000Z",
-   "end_ts": "2026-06-30T12:32:54.420000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.375704,
-     29.032908,
-     1100.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.508222,
-     29.350937,
-     675.0
-    ]
-   },
-   "end_airport_name": "WILLISTON MUNICIPAL AIRPORT",
-   "point_count": 32,
-   "raw_point_count": 101,
-   "ingest_batch_date": "2026-06-30"
-  },
-  "a5091e:2026-06-05T12:02:51Z": {
-   "flight_id": "a5091e:2026-06-05T12:02:51Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-06-05T12:02:51.640000Z",
-   "end_ts": "2026-06-05T12:35:08.570000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.361755,
-     29.079833,
-     450.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.422972,
-     29.077972,
-     1000.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "point_count": 94,
-   "raw_point_count": 364,
-   "ingest_batch_date": "2026-06-05"
-  },
-  "a5091e:2026-05-22T16:38:14Z": {
-   "flight_id": "a5091e:2026-05-22T16:38:14Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-05-22T16:38:14.250000Z",
-   "end_ts": "2026-05-22T16:45:22.220000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.50657,
-     28.93445,
-     1825.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.394984,
-     29.081276,
-     925.0
-    ]
-   },
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 7,
-   "raw_point_count": 22,
-   "ingest_batch_date": "2026-05-22"
-  },
-  "a5091e:2026-05-22T11:51:04Z": {
-   "flight_id": "a5091e:2026-05-22T11:51:04Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-05-22T11:51:04.100000Z",
-   "end_ts": "2026-05-22T11:58:48.850000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.362548,
-     29.110291,
-     1500.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.529566,
-     28.913548,
-     1450.0
-    ]
-   },
-   "point_count": 7,
-   "raw_point_count": 12,
-   "ingest_batch_date": "2026-05-22"
-  },
-  "a5091e:2026-05-15T12:28:47Z": {
-   "flight_id": "a5091e:2026-05-15T12:28:47Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-05-15T12:28:47.170000Z",
-   "end_ts": "2026-05-15T12:34:51.630000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.560748,
-     28.867229,
-     200.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.44006,
-     29.009027,
-     1800.0
-    ]
-   },
-   "start_airport_ident": "KCGC",
-   "start_airport_name": "CRYSTAL RIVER/DAVIS FLD",
-   "point_count": 11,
-   "raw_point_count": 107,
-   "ingest_batch_date": "2026-05-15"
-  },
-  "a5091e:2026-05-15T11:49:51Z": {
-   "flight_id": "a5091e:2026-05-15T11:49:51Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-05-15T11:49:51.970000Z",
-   "end_ts": "2026-05-15T11:58:38.200000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.418087,
-     29.063214,
-     1850.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.58444,
-     28.867401,
-     100.0
-    ]
-   },
-   "end_airport_ident": "KCGC",
-   "end_airport_name": "CRYSTAL RIVER/DAVIS FLD",
-   "point_count": 9,
-   "raw_point_count": 16,
-   "ingest_batch_date": "2026-05-15"
-  },
-  "a5091e:2026-04-30T22:23:30Z": {
-   "flight_id": "a5091e:2026-04-30T22:23:30Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-04-30T22:23:30.850000Z",
-   "end_ts": "2026-04-30T22:52:35.890000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -81.80346,
-     27.942307,
-     900.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -81.986497,
-     28.986216,
-     1075.0
-    ]
-   },
-   "start_airport_ident": "KBOW",
-   "start_airport_name": "BARTOW EXEC",
-   "end_airport_name": "JOHARY",
-   "point_count": 31,
-   "raw_point_count": 184,
-   "ingest_batch_date": "2026-04-30"
-  },
-  "a5091e:2026-04-22T12:23:24Z": {
-   "flight_id": "a5091e:2026-04-22T12:23:24Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-04-22T12:23:24.770000Z",
-   "end_ts": "2026-04-22T13:04:25.480000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.373388,
-     28.96699,
-     2525.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -81.823214,
-     27.955856,
-     450.0
-    ]
-   },
-   "end_airport_ident": "KBOW",
-   "end_airport_name": "BARTOW EXEC",
-   "point_count": 54,
-   "raw_point_count": 264,
-   "ingest_batch_date": "2026-04-22"
-  },
-  "a5091e:2026-04-16T23:03:39Z": {
-   "flight_id": "a5091e:2026-04-16T23:03:39Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-04-16T23:03:39.500000Z",
-   "end_ts": "2026-04-16T23:15:20.540000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.408975,
-     29.076187,
-     1075.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.379689,
-     29.059536,
-     1100.0
-    ]
-   },
-   "point_count": 33,
-   "raw_point_count": 126,
-   "ingest_batch_date": "2026-04-17"
-  },
-  "a5091e:2026-04-10T15:15:59Z": {
-   "flight_id": "a5091e:2026-04-10T15:15:59Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-04-10T15:15:59.390000Z",
-   "end_ts": "2026-04-10T15:57:49.430000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.362886,
-     29.093287,
-     550.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.370857,
-     29.06894,
-     750.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 108,
-   "raw_point_count": 457,
-   "ingest_batch_date": "2026-04-10"
-  },
-  "a5091e:2026-03-21T17:13:10Z": {
-   "flight_id": "a5091e:2026-03-21T17:13:10Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-03-21T17:13:10.630000Z",
-   "end_ts": "2026-03-21T17:22:25.810000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.034966,
-     29.069079,
-     400.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.323572,
-     29.05949,
+     -81.68261,
+     28.710892,
      800.0
-    ]
-   },
-   "start_airport_name": "LEEWARD AIR RANCH AIRPORT",
-   "point_count": 22,
-   "raw_point_count": 166,
-   "ingest_batch_date": "2026-03-21"
-  },
-  "a5091e:2026-03-21T14:03:26Z": {
-   "flight_id": "a5091e:2026-03-21T14:03:26Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-03-21T14:03:26.320000Z",
-   "end_ts": "2026-03-21T14:17:07.650000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.355311,
-     29.086212,
-     675.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.032543,
-     29.060607,
-     325.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "LEEWARD AIR RANCH AIRPORT",
-   "point_count": 48,
-   "raw_point_count": 154,
-   "ingest_batch_date": "2026-03-21"
-  },
-  "a5091e:2026-03-13T22:11:50Z": {
-   "flight_id": "a5091e:2026-03-13T22:11:50Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-03-13T22:11:50.540000Z",
-   "end_ts": "2026-03-13T22:25:42.650000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.358269,
-     29.090561,
-     725.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.391968,
-     29.07271,
-     900.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 50,
-   "raw_point_count": 224,
-   "ingest_batch_date": "2026-03-13"
-  },
-  "a5091e:2026-02-25T19:29:07Z": {
-   "flight_id": "a5091e:2026-02-25T19:29:07Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-02-25T19:29:07.640000Z",
-   "end_ts": "2026-02-25T19:59:51.810000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.432269,
-     29.047989,
-     1100.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.348128,
-     29.058426,
-     325.0
-    ]
-   },
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 82,
-   "raw_point_count": 318,
-   "ingest_batch_date": "2026-02-25"
-  },
-  "a5091e:2026-02-20T18:16:34Z": {
-   "flight_id": "a5091e:2026-02-20T18:16:34Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-02-20T18:16:34.990000Z",
-   "end_ts": "2026-02-20T20:01:15.070000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -80.0823,
-     26.59314,
-     -50.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.352776,
-     29.080078,
-     450.0
-    ]
-   },
-   "start_airport_ident": "KLNA",
-   "start_airport_name": "PALM BEACH COUNTY PARK",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 136,
-   "raw_point_count": 554,
-   "ingest_batch_date": "2026-02-20"
-  },
-  "a5091e:2026-02-20T14:15:39Z": {
-   "flight_id": "a5091e:2026-02-20T14:15:39Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-02-20T14:15:39.920000Z",
-   "end_ts": "2026-02-20T15:55:20.820000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.39107,
-     29.035904,
-     875.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -80.086159,
-     26.599716,
-     -50.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_ident": "KLNA",
-   "end_airport_name": "PALM BEACH COUNTY PARK",
-   "point_count": 104,
-   "raw_point_count": 508,
-   "ingest_batch_date": "2026-02-20"
-  },
-  "a5091e:2026-02-17T16:53:33Z": {
-   "flight_id": "a5091e:2026-02-17T16:53:33Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-02-17T16:53:33.690000Z",
-   "end_ts": "2026-02-17T16:55:48.560000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.36014,
-     29.081555,
-     400.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.420188,
-     29.078762,
-     875.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "point_count": 13,
-   "raw_point_count": 26,
-   "ingest_batch_date": "2026-02-17"
-  },
-  "a5091e:2026-02-13T17:13:33Z": {
-   "flight_id": "a5091e:2026-02-13T17:13:33Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-02-13T17:13:33.300000Z",
-   "end_ts": "2026-02-13T17:59:40.670000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -83.174474,
-     30.687241,
-     3700.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.354,
-     29.076062,
-     375.0
-    ]
-   },
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 47,
-   "raw_point_count": 267,
-   "ingest_batch_date": "2026-02-13"
-  },
-  "a5091e:2026-02-13T13:53:00Z": {
-   "flight_id": "a5091e:2026-02-13T13:53:00Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-02-13T13:53:00.910000Z",
-   "end_ts": "2026-02-13T15:19:39.320000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.380551,
-     29.060467,
-     0.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -83.270066,
-     30.762634,
-     200.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_ident": "KVLD",
-   "end_airport_name": "VALDOSTA RGNL",
-   "point_count": 116,
-   "raw_point_count": 450,
-   "ingest_batch_date": "2026-02-13"
-  },
-  "a5091e:2026-02-06T16:37:38Z": {
-   "flight_id": "a5091e:2026-02-06T16:37:38Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-02-06T16:37:38.820000Z",
-   "end_ts": "2026-02-06T17:19:34.040000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -81.349091,
-     29.966234,
-     450.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.34883,
-     29.057721,
-     275.0
-    ]
-   },
-   "start_airport_ident": "KSGJ",
-   "start_airport_name": "ST AUGUSTINE",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 69,
-   "raw_point_count": 307,
-   "ingest_batch_date": "2026-02-06"
-  },
-  "a5091e:2026-02-06T14:29:45Z": {
-   "flight_id": "a5091e:2026-02-06T14:29:45Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-02-06T14:29:45.710000Z",
-   "end_ts": "2026-02-06T15:06:36.520000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.40877,
-     29.069405,
-     1075.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -81.319263,
-     29.946682,
-     125.0
-    ]
-   },
-   "end_airport_ident": "KSGJ",
-   "end_airport_name": "ST AUGUSTINE",
-   "point_count": 53,
-   "raw_point_count": 192,
-   "ingest_batch_date": "2026-02-06"
-  },
-  "a5091e:2026-01-22T22:08:36Z": {
-   "flight_id": "a5091e:2026-01-22T22:08:36Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-01-22T22:08:36.530000Z",
-   "end_ts": "2026-01-22T22:25:19.010000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.360699,
-     29.080444,
-     600.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.427027,
-     29.046595,
-     725.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "SEVEN FEATHERS",
-   "point_count": 39,
-   "raw_point_count": 192,
-   "ingest_batch_date": "2026-01-22"
-  },
-  "a5091e:2026-01-05T22:13:36Z": {
-   "flight_id": "a5091e:2026-01-05T22:13:36Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2026-01-05T22:13:36.110000Z",
-   "end_ts": "2026-01-05T22:44:23Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.358578,
-     29.081881,
-     625.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.404908,
-     29.066162,
-     875.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 42,
-   "raw_point_count": 183,
-   "ingest_batch_date": "2026-01-05"
-  },
-  "a5091e:2025-12-23T22:12:41Z": {
-   "flight_id": "a5091e:2025-12-23T22:12:41Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-12-23T22:12:41.040000Z",
-   "end_ts": "2025-12-23T22:36:28.990000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.366441,
-     29.073455,
-     200.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.402109,
-     29.065887,
-     500.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 55,
-   "raw_point_count": 277,
-   "ingest_batch_date": "2025-12-23"
-  },
-  "a5091e:2025-11-26T15:23:39Z": {
-   "flight_id": "a5091e:2025-11-26T15:23:39Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-11-26T15:23:39.130000Z",
-   "end_ts": "2025-11-26T15:35:29Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.48966,
-     29.341969,
-     650.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.356478,
-     29.080764,
-     325.0
-    ]
-   },
-   "start_airport_name": "WILLISTON MUNICIPAL AIRPORT",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 29,
-   "raw_point_count": 162,
-   "ingest_batch_date": "2025-11-26"
-  },
-  "a5091e:2025-11-25T16:50:27Z": {
-   "flight_id": "a5091e:2025-11-25T16:50:27Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-11-25T16:50:27.890000Z",
-   "end_ts": "2025-11-25T17:00:40.930000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.412567,
-     29.063049,
-     875.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.442968,
-     29.380188,
-     350.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "WILLISTON MUNICIPAL AIRPORT",
-   "point_count": 24,
-   "raw_point_count": 156,
-   "ingest_batch_date": "2025-11-25"
-  },
-  "a5091e:2025-11-19T22:31:06Z": {
-   "flight_id": "a5091e:2025-11-19T22:31:06Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-11-19T22:31:06.290000Z",
-   "end_ts": "2025-11-19T22:41:23.900000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.408824,
-     29.067916,
-     675.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.350931,
-     29.058093,
-     300.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 37,
-   "raw_point_count": 216,
-   "ingest_batch_date": "2025-11-19"
-  },
-  "a5091e:2025-10-16T12:36:16Z": {
-   "flight_id": "a5091e:2025-10-16T12:36:16Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-10-16T12:36:16.840000Z",
-   "end_ts": "2025-10-16T12:47:00.340000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -81.990333,
-     29.043457,
-     575.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.416476,
-     29.061447,
-     1100.0
-    ]
-   },
-   "start_airport_name": "JOHARY",
-   "point_count": 27,
-   "raw_point_count": 164,
-   "ingest_batch_date": "2025-10-16"
-  },
-  "a5091e:2025-09-26T21:48:44Z": {
-   "flight_id": "a5091e:2025-09-26T21:48:44Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-09-26T21:48:44.010000Z",
-   "end_ts": "2025-09-26T22:20:48.600000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.365633,
-     29.073455,
-     500.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.408501,
-     29.070197,
-     875.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 100,
-   "raw_point_count": 393,
-   "ingest_batch_date": "2025-09-26"
-  },
-  "a5091e:2025-09-20T14:20:50Z": {
-   "flight_id": "a5091e:2025-09-20T14:20:50Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-09-20T14:20:50.220000Z",
-   "end_ts": "2025-09-20T14:47:48.200000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.357501,
-     29.0823,
-     575.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.410402,
-     29.064926,
-     875.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 83,
-   "raw_point_count": 331,
-   "ingest_batch_date": "2025-09-20"
-  },
-  "a5091e:2025-07-31T13:17:19Z": {
-   "flight_id": "a5091e:2025-07-31T13:17:19Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-07-31T13:17:19.570000Z",
-   "end_ts": "2025-07-31T13:39:40.210000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -81.673763,
-     28.717284,
-     300.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.386158,
-     29.071014,
-     850.0
-    ]
-   },
-   "start_airport_name": "ORLANDO NORTH AIRPARK",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 37,
-   "raw_point_count": 224,
-   "ingest_batch_date": "2025-07-31"
-  },
-  "a5091e:2025-07-31T11:54:23Z": {
-   "flight_id": "a5091e:2025-07-31T11:54:23Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-07-31T11:54:23.500000Z",
-   "end_ts": "2025-07-31T12:19:13.220000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.381412,
-     29.031931,
-     1150.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -81.642905,
-     28.722079,
-     125.0
     ]
    },
    "end_airport_name": "ORLANDO NORTH AIRPARK",
-   "point_count": 59,
-   "raw_point_count": 215,
-   "ingest_batch_date": "2025-07-31"
+   "point_count": 36,
+   "raw_point_count": 662,
+   "ingest_batch_date": "2026-08-31"
   },
-  "a5091e:2025-07-18T17:36:04Z": {
-   "flight_id": "a5091e:2025-07-18T17:36:04Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
+  "a4a85d:2026-08-16T16:06:10Z": {
+   "flight_id": "a4a85d:2026-08-16T16:06:10Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
    "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-07-18T17:36:04.750000Z",
-   "end_ts": "2025-07-18T18:17:05.200000Z",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2026-08-16T16:06:10.900000Z",
+   "end_ts": "2026-08-16T16:24:47.100000Z",
    "start_point": {
     "type": "Point",
     "coordinates": [
-     -81.276048,
-     29.891471,
-     1650.0
+     -82.749446,
+     27.726699,
+     600.0
     ]
    },
    "end_point": {
     "type": "Point",
     "coordinates": [
-     -82.347653,
-     29.085617,
-     300.0
+     -82.515036,
+     27.643603,
+     0.0
     ]
    },
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 75,
-   "raw_point_count": 313,
-   "ingest_batch_date": "2025-07-18"
+   "end_airport_name": "MANATEE",
+   "point_count": 17,
+   "raw_point_count": 122,
+   "ingest_batch_date": "2026-08-16"
   },
-  "a5091e:2025-07-18T11:57:27Z": {
-   "flight_id": "a5091e:2025-07-18T11:57:27Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
+  "a4a85d:2026-07-23T14:14:08Z": {
+   "flight_id": "a4a85d:2026-07-23T14:14:08Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
    "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-07-18T11:57:27.790000Z",
-   "end_ts": "2025-07-18T13:13:08.880000Z",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2026-07-23T14:14:08.500000Z",
+   "end_ts": "2026-07-23T14:18:38.770000Z",
    "start_point": {
     "type": "Point",
     "coordinates": [
-     -82.351254,
-     29.06745,
-     650.0
+     -82.466231,
+     27.619163,
+     700.0
     ]
    },
    "end_point": {
     "type": "Point",
     "coordinates": [
-     -81.394258,
-     29.992722,
-     1125.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "point_count": 100,
-   "raw_point_count": 355,
-   "ingest_batch_date": "2025-07-18"
-  },
-  "a5091e:2025-06-26T13:09:58Z": {
-   "flight_id": "a5091e:2025-06-26T13:09:58Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-06-26T13:09:58.760000Z",
-   "end_ts": "2025-06-26T13:20:43.920000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.466442,
-     29.316788,
+     -82.412127,
+     27.558609,
      1000.0
     ]
    },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.400531,
-     29.078995,
-     775.0
-    ]
-   },
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 31,
-   "raw_point_count": 180,
-   "ingest_batch_date": "2025-06-26"
+   "point_count": 15,
+   "raw_point_count": 83,
+   "ingest_batch_date": "2026-07-23"
   },
-  "a5091e:2025-06-26T12:13:22Z": {
-   "flight_id": "a5091e:2025-06-26T12:13:22Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
+  "a4a85d:2026-07-12T15:25:34Z": {
+   "flight_id": "a4a85d:2026-07-12T15:25:34Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
    "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-06-26T12:13:22.980000Z",
-   "end_ts": "2025-06-26T12:23:30.830000Z",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2026-07-12T15:25:34.590000Z",
+   "end_ts": "2026-07-12T16:05:26.380000Z",
    "start_point": {
     "type": "Point",
     "coordinates": [
-     -82.370103,
-     29.046548,
-     1050.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.43936,
-     29.370924,
-     450.0
-    ]
-   },
-   "end_airport_name": "WILLISTON MUNICIPAL AIRPORT",
-   "point_count": 22,
-   "raw_point_count": 75,
-   "ingest_batch_date": "2025-06-26"
-  },
-  "a5091e:2025-06-26T11:53:20Z": {
-   "flight_id": "a5091e:2025-06-26T11:53:20Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-06-26T11:53:20.640000Z",
-   "end_ts": "2025-06-26T12:00:09.220000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.371685,
-     29.050003,
-     850.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.410494,
-     29.057674,
-     850.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 36,
-   "raw_point_count": 110,
-   "ingest_batch_date": "2025-06-26"
-  },
-  "a5091e:2025-06-21T14:39:51Z": {
-   "flight_id": "a5091e:2025-06-21T14:39:51Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-06-21T14:39:51.190000Z",
-   "end_ts": "2025-06-21T14:53:29.210000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.5481,
-     29.426926,
-     2325.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.350927,
-     29.082321,
-     300.0
-    ]
-   },
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 30,
-   "raw_point_count": 166,
-   "ingest_batch_date": "2025-06-21"
-  },
-  "a5091e:2025-06-21T11:44:11Z": {
-   "flight_id": "a5091e:2025-06-21T11:44:11Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-06-21T11:44:11.080000Z",
-   "end_ts": "2025-06-21T12:02:35.400000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.409556,
-     29.066803,
+     -82.263671,
+     27.395154,
      800.0
     ]
    },
    "end_point": {
     "type": "Point",
     "coordinates": [
-     -82.70007,
-     29.701352,
-     2800.0
+     -82.516445,
+     27.643295,
+     -100.0
     ]
    },
-   "start_airport_name": "MARION COUNTY",
-   "point_count": 22,
-   "raw_point_count": 119,
-   "ingest_batch_date": "2025-06-21"
+   "end_airport_name": "MANATEE",
+   "point_count": 21,
+   "raw_point_count": 124,
+   "ingest_batch_date": "2026-07-12"
   },
-  "a5091e:2025-05-21T13:34:34Z": {
-   "flight_id": "a5091e:2025-05-21T13:34:34Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
+  "a4a85d:2026-07-06T13:30:11Z": {
+   "flight_id": "a4a85d:2026-07-06T13:30:11Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
    "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-05-21T13:34:34.190000Z",
-   "end_ts": "2025-05-21T13:59:09.180000Z",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2026-07-06T13:30:11.590000Z",
+   "end_ts": "2026-07-06T14:47:42.490000Z",
    "start_point": {
     "type": "Point",
     "coordinates": [
-     -82.33017,
-     29.038376,
-     1650.0
+     -82.040782,
+     28.890272,
+     2200.0
     ]
    },
    "end_point": {
     "type": "Point",
     "coordinates": [
-     -82.34686,
-     29.080582,
-     425.0
+     -82.517741,
+     27.643021,
+     0.0
     ]
    },
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 62,
-   "raw_point_count": 253,
-   "ingest_batch_date": "2025-05-21"
+   "end_airport_name": "MANATEE",
+   "point_count": 157,
+   "raw_point_count": 606,
+   "ingest_batch_date": "2026-07-06"
   },
-  "a5091e:2025-05-15T13:56:31Z": {
-   "flight_id": "a5091e:2025-05-15T13:56:31Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
+  "a4a85d:2026-05-30T14:22:07Z": {
+   "flight_id": "a4a85d:2026-05-30T14:22:07Z",
+   "icao24": "a4a85d",
+   "icao_type": "SREY",
    "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-05-15T13:56:31.660000Z",
-   "end_ts": "2025-05-15T14:11:01.400000Z",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2026-05-30T14:22:07.940000Z",
+   "end_ts": "2026-05-30T14:25:45.080000Z",
    "start_point": {
     "type": "Point",
     "coordinates": [
-     -82.371718,
-     29.041195,
-     950.0
+     -82.49301,
+     27.478808,
+     900.0
     ]
    },
    "end_point": {
     "type": "Point",
     "coordinates": [
-     -82.347915,
-     29.086816,
-     550.0
+     -82.56096,
+     27.507248,
+     900.0
     ]
    },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 62,
-   "raw_point_count": 228,
-   "ingest_batch_date": "2025-05-15"
+   "point_count": 4,
+   "raw_point_count": 15,
+   "ingest_batch_date": "2026-05-30"
   },
-  "a5091e:2025-05-08T14:35:02Z": {
-   "flight_id": "a5091e:2025-05-08T14:35:02Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
+  "a4a85d:2026-02-09T16:56:34Z": {
+   "flight_id": "a4a85d:2026-02-09T16:56:34Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
    "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-05-08T14:35:02.350000Z",
-   "end_ts": "2025-05-08T14:52:24.430000Z",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2026-02-09T16:56:34.140000Z",
+   "end_ts": "2026-02-09T16:59:14.530000Z",
    "start_point": {
     "type": "Point",
     "coordinates": [
-     -82.378935,
-     29.040776,
-     925.0
+     -82.640352,
+     27.677902,
+     500.0
     ]
    },
    "end_point": {
     "type": "Point",
     "coordinates": [
-     -82.344199,
-     29.080112,
-     450.0
+     -82.587234,
+     27.650528,
+     600.0
     ]
    },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 77,
-   "raw_point_count": 229,
-   "ingest_batch_date": "2025-05-08"
+   "point_count": 7,
+   "raw_point_count": 39,
+   "ingest_batch_date": "2026-02-09"
   },
-  "a5091e:2025-05-06T18:06:19Z": {
-   "flight_id": "a5091e:2025-05-06T18:06:19Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
+  "a4a85d:2026-01-16T21:37:09Z": {
+   "flight_id": "a4a85d:2026-01-16T21:37:09Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
    "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-05-06T18:06:19.530000Z",
-   "end_ts": "2025-05-06T18:14:17.280000Z",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2026-01-16T21:37:09.470000Z",
+   "end_ts": "2026-01-16T22:05:19.540000Z",
    "start_point": {
     "type": "Point",
     "coordinates": [
-     -82.547823,
-     28.916341,
+     -82.549663,
+     27.685547,
+     200.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.547279,
+     27.628601,
+     400.0
+    ]
+   },
+   "end_airport_name": "MANATEE",
+   "point_count": 15,
+   "raw_point_count": 142,
+   "ingest_batch_date": "2026-01-16"
+  },
+  "a4a85d:2026-01-16T21:12:21Z": {
+   "flight_id": "a4a85d:2026-01-16T21:12:21Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2026-01-16T21:12:21.910000Z",
+   "end_ts": "2026-01-16T21:32:48.590000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.530195,
+     27.686711,
+     500.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.474987,
+     27.714432,
+     0.0
+    ]
+   },
+   "point_count": 76,
+   "raw_point_count": 156,
+   "ingest_batch_date": "2026-01-16"
+  },
+  "a4a85d:2026-01-13T20:15:10Z": {
+   "flight_id": "a4a85d:2026-01-13T20:15:10Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2026-01-13T20:15:10.050000Z",
+   "end_ts": "2026-01-13T20:16:56.990000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.521938,
+     27.646317,
+     500.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.517792,
+     27.642975,
+     -100.0
+    ]
+   },
+   "start_airport_name": "MANATEE",
+   "end_airport_name": "MANATEE",
+   "point_count": 7,
+   "raw_point_count": 25,
+   "ingest_batch_date": "2026-01-13"
+  },
+  "a4a85d:2025-12-27T17:06:07Z": {
+   "flight_id": "a4a85d:2025-12-27T17:06:07Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-12-27T17:06:07.970000Z",
+   "end_ts": "2025-12-27T17:11:13.670000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.449752,
+     27.768224,
+     700.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.507946,
+     27.680466,
+     900.0
+    ]
+   },
+   "point_count": 7,
+   "raw_point_count": 84,
+   "ingest_batch_date": "2025-12-27"
+  },
+  "a4a85d:2025-12-26T19:52:34Z": {
+   "flight_id": "a4a85d:2025-12-26T19:52:34Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-12-26T19:52:34.960000Z",
+   "end_ts": "2025-12-26T19:55:16.710000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.023603,
+     29.071733,
+     700.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.036021,
+     29.10704,
+     600.0
+    ]
+   },
+   "start_airport_name": "LEEWARD AIR RANCH AIRPORT",
+   "end_airport_name": "LEEWARD AIR RANCH AIRPORT",
+   "point_count": 8,
+   "raw_point_count": 52,
+   "ingest_batch_date": "2025-12-26"
+  },
+  "a4a85d:2025-12-24T16:43:45Z": {
+   "flight_id": "a4a85d:2025-12-24T16:43:45Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-12-24T16:43:45.700000Z",
+   "end_ts": "2025-12-24T16:45:02.460000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.000068,
+     29.017918,
+     900.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.98204,
+     28.996078,
+     500.0
+    ]
+   },
+   "end_airport_name": "JOHARY",
+   "point_count": 12,
+   "raw_point_count": 24,
+   "ingest_batch_date": "2025-12-24"
+  },
+  "a4a85d:2025-12-24T16:10:39Z": {
+   "flight_id": "a4a85d:2025-12-24T16:10:39Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-12-24T16:10:39.840000Z",
+   "end_ts": "2025-12-24T16:13:56.710000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.986281,
+     29.044081,
+     500.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.032113,
+     29.069778,
+     300.0
+    ]
+   },
+   "start_airport_name": "JOHARY",
+   "end_airport_name": "LEEWARD AIR RANCH AIRPORT",
+   "point_count": 9,
+   "raw_point_count": 72,
+   "ingest_batch_date": "2025-12-24"
+  },
+  "a4a85d:2025-12-23T20:12:22Z": {
+   "flight_id": "a4a85d:2025-12-23T20:12:22Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-12-23T20:12:22.010000Z",
+   "end_ts": "2025-12-23T21:31:35.940000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.479119,
+     27.652914,
+     500.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.989963,
+     28.995392,
+     600.0
+    ]
+   },
+   "start_airport_name": "MANATEE",
+   "end_airport_name": "JOHARY",
+   "point_count": 39,
+   "raw_point_count": 313,
+   "ingest_batch_date": "2025-12-23"
+  },
+  "a4a85d:2025-12-13T16:05:52Z": {
+   "flight_id": "a4a85d:2025-12-13T16:05:52Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-12-13T16:05:52.150000Z",
+   "end_ts": "2025-12-13T16:36:36.990000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.427515,
+     27.576009,
+     900.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.403576,
+     27.542175,
+     600.0
+    ]
+   },
+   "point_count": 38,
+   "raw_point_count": 199,
+   "ingest_batch_date": "2025-12-13"
+  },
+  "a4a85d:2025-12-12T15:33:53Z": {
+   "flight_id": "a4a85d:2025-12-12T15:33:53Z",
+   "icao24": "a4a85d",
+   "icao_type": "SREY",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-12-12T15:33:53.550000Z",
+   "end_ts": "2025-12-12T15:34:50.760000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.462692,
+     27.666414,
+     700.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.462135,
+     27.682846,
+     400.0
+    ]
+   },
+   "point_count": 2,
+   "raw_point_count": 3,
+   "ingest_batch_date": "2025-12-12"
+  },
+  "a4a85d:2025-11-23T16:52:03Z": {
+   "flight_id": "a4a85d:2025-11-23T16:52:03Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-11-23T16:52:03.460000Z",
+   "end_ts": "2025-11-23T17:13:26.110000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.319002,
+     27.480881,
+     500.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.427518,
+     27.58017,
+     600.0
+    ]
+   },
+   "point_count": 14,
+   "raw_point_count": 211,
+   "ingest_batch_date": "2025-11-23"
+  },
+  "a4a85d:2025-11-23T14:41:59Z": {
+   "flight_id": "a4a85d:2025-11-23T14:41:59Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-11-23T14:41:59.120000Z",
+   "end_ts": "2025-11-23T16:13:19.530000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.482499,
+     27.714409,
+     600.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.305114,
+     27.483215,
+     300.0
+    ]
+   },
+   "point_count": 23,
+   "raw_point_count": 134,
+   "ingest_batch_date": "2025-11-23"
+  },
+  "a4a85d:2025-11-19T20:06:58Z": {
+   "flight_id": "a4a85d:2025-11-19T20:06:58Z",
+   "icao24": "a4a85d",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-11-19T20:06:58.460000Z",
+   "end_ts": "2025-11-19T20:07:09.410000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.81338,
+     28.125,
+     900.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.812089,
+     28.121613,
+     900.0
+    ]
+   },
+   "point_count": 3,
+   "raw_point_count": 5,
+   "ingest_batch_date": "2025-11-19"
+  },
+  "a4a85d:2025-11-18T21:41:14Z": {
+   "flight_id": "a4a85d:2025-11-18T21:41:14Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-11-18T21:41:14.640000Z",
+   "end_ts": "2025-11-18T22:23:47.340000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.406478,
+     27.510132,
+     800.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.508309,
+     27.639175,
+     400.0
+    ]
+   },
+   "end_airport_name": "MANATEE",
+   "point_count": 11,
+   "raw_point_count": 54,
+   "ingest_batch_date": "2025-11-19"
+  },
+  "a4a85d:2025-11-18T21:23:33Z": {
+   "flight_id": "a4a85d:2025-11-18T21:23:33Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-11-18T21:23:33.600000Z",
+   "end_ts": "2025-11-18T22:23:47.340000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.426987,
+     27.571121,
+     1000.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.508309,
+     27.639175,
+     400.0
+    ]
+   },
+   "end_airport_name": "MANATEE",
+   "point_count": 43,
+   "raw_point_count": 272,
+   "ingest_batch_date": "2025-11-18"
+  },
+  "a4a85d:2025-11-06T15:18:12Z": {
+   "flight_id": "a4a85d:2025-11-06T15:18:12Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-11-06T15:18:12.890000Z",
+   "end_ts": "2025-11-06T15:31:01.400000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.433589,
+     27.577406,
+     1100.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.343048,
+     27.493286,
+     400.0
+    ]
+   },
+   "point_count": 31,
+   "raw_point_count": 245,
+   "ingest_batch_date": "2025-11-06"
+  },
+  "a4a85d:2025-10-21T16:52:51Z": {
+   "flight_id": "a4a85d:2025-10-21T16:52:51Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-10-21T16:52:51.090000Z",
+   "end_ts": "2025-10-21T17:09:31.730000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.147047,
+     27.385471,
+     900.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.422698,
+     27.567123,
+     900.0
+    ]
+   },
+   "point_count": 19,
+   "raw_point_count": 188,
+   "ingest_batch_date": "2025-10-21"
+  },
+  "a4a85d:2025-10-21T14:44:33Z": {
+   "flight_id": "a4a85d:2025-10-21T14:44:33Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-10-21T14:44:33.760000Z",
+   "end_ts": "2025-10-21T15:15:54.410000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.37953,
+     27.554626,
+     700.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.900963,
+     27.231057,
+     700.0
+    ]
+   },
+   "end_airport_name": "MC DONALD'S FLD",
+   "point_count": 32,
+   "raw_point_count": 82,
+   "ingest_batch_date": "2025-10-21"
+  },
+  "a4a85d:2025-10-17T20:39:59Z": {
+   "flight_id": "a4a85d:2025-10-17T20:39:59Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-10-17T20:39:59.970000Z",
+   "end_ts": "2025-10-17T21:28:11.830000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.707315,
+     28.661654,
+     1100.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.368544,
+     27.866592,
+     800.0
+    ]
+   },
+   "point_count": 37,
+   "raw_point_count": 368,
+   "ingest_batch_date": "2025-10-17"
+  },
+  "a4a85d:2025-10-13T16:16:33Z": {
+   "flight_id": "a4a85d:2025-10-13T16:16:33Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-10-13T16:16:33.700000Z",
+   "end_ts": "2025-10-13T17:13:30.190000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.314856,
+     27.563095,
+     1100.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.161519,
+     28.472214,
+     1500.0
+    ]
+   },
+   "point_count": 72,
+   "raw_point_count": 483,
+   "ingest_batch_date": "2025-10-13"
+  },
+  "a4a85d:2025-10-13T13:32:59Z": {
+   "flight_id": "a4a85d:2025-10-13T13:32:59Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-10-13T13:32:59.020000Z",
+   "end_ts": "2025-10-13T13:45:28.730000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.424451,
+     27.564278,
+     1000.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.32605,
+     27.47937,
+     200.0
+    ]
+   },
+   "point_count": 26,
+   "raw_point_count": 141,
+   "ingest_batch_date": "2025-10-13"
+  },
+  "a4a85d:2025-09-25T15:28:12Z": {
+   "flight_id": "a4a85d:2025-09-25T15:28:12Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-09-25T15:28:12.840000Z",
+   "end_ts": "2025-09-25T15:30:26.620000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.72355,
+     28.101724,
+     400.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.746805,
+     28.076706,
+     800.0
+    ]
+   },
+   "point_count": 6,
+   "raw_point_count": 18,
+   "ingest_batch_date": "2025-09-25"
+  },
+  "a4a85d:2025-09-12T17:47:58Z": {
+   "flight_id": "a4a85d:2025-09-12T17:47:58Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-09-12T17:47:58.300000Z",
+   "end_ts": "2025-09-12T18:46:58.120000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.961562,
+     28.850936,
+     1800.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.490067,
+     27.717224,
+     1000.0
+    ]
+   },
+   "point_count": 45,
+   "raw_point_count": 609,
+   "ingest_batch_date": "2025-09-12"
+  },
+  "a4a85d:2025-09-12T14:52:37Z": {
+   "flight_id": "a4a85d:2025-09-12T14:52:37Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-09-12T14:52:37.850000Z",
+   "end_ts": "2025-09-12T15:03:27.960000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.877495,
+     28.983423,
+     1100.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.990597,
+     29.050415,
+     600.0
+    ]
+   },
+   "end_airport_name": "BACK ACHERS",
+   "point_count": 8,
+   "raw_point_count": 23,
+   "ingest_batch_date": "2025-09-12"
+  },
+  "a4a85d:2025-09-12T11:54:08Z": {
+   "flight_id": "a4a85d:2025-09-12T11:54:08Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-09-12T11:54:08.990000Z",
+   "end_ts": "2025-09-12T13:22:47.910000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.3832,
+     27.710592,
+     1400.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.992815,
+     29.043732,
+     800.0
+    ]
+   },
+   "end_airport_name": "JOHARY",
+   "point_count": 52,
+   "raw_point_count": 773,
+   "ingest_batch_date": "2025-09-12"
+  },
+  "a4a85d:2025-09-02T13:13:42Z": {
+   "flight_id": "a4a85d:2025-09-02T13:13:42Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-09-02T13:13:42.790000Z",
+   "end_ts": "2025-09-02T14:14:15.570000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.017463,
+     28.93459,
+     1700.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.490327,
+     27.708435,
+     1100.0
+    ]
+   },
+   "point_count": 54,
+   "raw_point_count": 488,
+   "ingest_batch_date": "2025-09-02"
+  },
+  "a4a85d:2025-09-01T11:40:15Z": {
+   "flight_id": "a4a85d:2025-09-01T11:40:15Z",
+   "icao24": "a4a85d",
+   "icao_type": "SREY",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-09-01T11:40:15.520000Z",
+   "end_ts": "2025-09-01T11:40:44.730000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.983104,
+     29.043988,
+     700.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.982516,
+     29.034119,
+     800.0
+    ]
+   },
+   "start_airport_name": "JOHARY",
+   "end_airport_name": "JOHARY",
+   "point_count": 3,
+   "raw_point_count": 6,
+   "ingest_batch_date": "2025-09-01"
+  },
+  "a4a85d:2025-08-31T12:21:47Z": {
+   "flight_id": "a4a85d:2025-08-31T12:21:47Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-08-31T12:21:47.700000Z",
+   "end_ts": "2025-08-31T12:22:25.340000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.965224,
+     29.025506,
+     800.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.963237,
+     29.016769,
+     800.0
+    ]
+   },
+   "start_airport_name": "JOHARY",
+   "end_airport_name": "JOHARY",
+   "point_count": 4,
+   "raw_point_count": 16,
+   "ingest_batch_date": "2025-09-01"
+  },
+  "a4a85d:2025-08-30T12:44:38Z": {
+   "flight_id": "a4a85d:2025-08-30T12:44:38Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-08-30T12:44:38.890000Z",
+   "end_ts": "2025-08-30T12:45:01.460000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.986443,
+     29.067031,
+     800.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.9869,
+     29.073944,
+     800.0
+    ]
+   },
+   "start_airport_name": "BACK ACHERS",
+   "end_airport_name": "BACK ACHERS",
+   "point_count": 3,
+   "raw_point_count": 15,
+   "ingest_batch_date": "2025-08-31"
+  },
+  "a4a85d:2025-08-29T12:39:17Z": {
+   "flight_id": "a4a85d:2025-08-29T12:39:17Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-08-29T12:39:17.020000Z",
+   "end_ts": "2025-08-29T12:56:05.690000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.975913,
+     28.244797,
      1600.0
     ]
    },
    "end_point": {
     "type": "Point",
     "coordinates": [
-     -82.35209,
-     29.083694,
-     425.0
+     -81.771768,
+     28.521103,
+     1600.0
     ]
    },
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 17,
-   "raw_point_count": 102,
-   "ingest_batch_date": "2025-05-06"
-  },
-  "a5091e:2025-05-06T16:58:19Z": {
-   "flight_id": "a5091e:2025-05-06T16:58:19Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-05-06T16:58:19.820000Z",
-   "end_ts": "2025-05-06T17:05:49.460000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.419381,
-     29.017914,
-     1250.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.552831,
-     28.850517,
-     800.0
-    ]
-   },
-   "end_airport_name": "POST OAK RANCH",
-   "point_count": 6,
-   "raw_point_count": 10,
-   "ingest_batch_date": "2025-05-06"
-  },
-  "a5091e:2025-05-06T16:32:46Z": {
-   "flight_id": "a5091e:2025-05-06T16:32:46Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-05-06T16:32:46.850000Z",
-   "end_ts": "2025-05-06T16:43:31.760000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.501831,
-     28.923615,
-     1625.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.383728,
-     29.058197,
-     725.0
-    ]
-   },
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 22,
-   "raw_point_count": 65,
-   "ingest_batch_date": "2025-05-06"
-  },
-  "a5091e:2025-05-06T13:40:11Z": {
-   "flight_id": "a5091e:2025-05-06T13:40:11Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
-   "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-05-06T13:40:11.760000Z",
-   "end_ts": "2025-05-06T13:45:23.070000Z",
-   "start_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.357635,
-     29.057373,
-     450.0
-    ]
-   },
-   "end_point": {
-    "type": "Point",
-    "coordinates": [
-     -82.497361,
-     28.935195,
-     1500.0
-    ]
-   },
-   "start_airport_name": "MARION COUNTY",
-   "point_count": 14,
+   "point_count": 9,
    "raw_point_count": 47,
-   "ingest_batch_date": "2025-05-06"
+   "ingest_batch_date": "2025-09-01"
   },
-  "a5091e:2025-04-23T17:10:05Z": {
-   "flight_id": "a5091e:2025-04-23T17:10:05Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
+  "a4a85d:2025-08-29T12:22:12Z": {
+   "flight_id": "a4a85d:2025-08-29T12:22:12Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
    "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-04-23T17:10:05.970000Z",
-   "end_ts": "2025-04-23T17:54:59.360000Z",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-08-29T12:22:12.840000Z",
+   "end_ts": "2025-08-29T12:56:05.690000Z",
    "start_point": {
     "type": "Point",
     "coordinates": [
-     -82.509553,
-     27.644669,
-     100.0
+     -82.179002,
+     27.976868,
+     1600.0
     ]
    },
    "end_point": {
     "type": "Point",
     "coordinates": [
-     -82.347547,
-     29.088318,
-     450.0
+     -81.771768,
+     28.521103,
+     1600.0
     ]
    },
-   "start_airport_name": "MANATEE",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 88,
-   "raw_point_count": 314,
-   "ingest_batch_date": "2025-04-23"
+   "point_count": 12,
+   "raw_point_count": 53,
+   "ingest_batch_date": "2025-08-31"
   },
-  "a5091e:2025-04-23T12:55:11Z": {
-   "flight_id": "a5091e:2025-04-23T12:55:11Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
+  "a4a85d:2025-08-29T12:21:19Z": {
+   "flight_id": "a4a85d:2025-08-29T12:21:19Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
    "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-04-23T12:55:11.400000Z",
-   "end_ts": "2025-04-23T13:40:33.270000Z",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-08-29T12:21:19.100000Z",
+   "end_ts": "2025-08-29T12:56:05.690000Z",
    "start_point": {
     "type": "Point",
     "coordinates": [
-     -82.385577,
-     29.043137,
-     675.0
+     -82.188721,
+     27.962219,
+     1700.0
     ]
    },
    "end_point": {
     "type": "Point",
     "coordinates": [
-     -82.531832,
-     27.640158,
-     -50.0
+     -81.771768,
+     28.521103,
+     1600.0
     ]
    },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "MANATEE",
-   "point_count": 67,
-   "raw_point_count": 254,
-   "ingest_batch_date": "2025-04-23"
+   "point_count": 13,
+   "raw_point_count": 69,
+   "ingest_batch_date": "2025-08-30"
   },
-  "a5091e:2025-04-22T20:47:22Z": {
-   "flight_id": "a5091e:2025-04-22T20:47:22Z",
-   "icao24": "a5091e",
-   "callsign": "N4230B",
-   "icao_type": "BE35",
+  "a4a85d:2025-08-29T12:05:09Z": {
+   "flight_id": "a4a85d:2025-08-29T12:05:09Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
    "emitter_category": "A1",
-   "registration": "N4230B",
-   "model": "BEECH 35 Bonanza",
-   "year": 1956,
-   "operator": "YONGE CHASE L",
-   "start_ts": "2025-04-22T20:47:22.740000Z",
-   "end_ts": "2025-04-22T21:07:57.790000Z",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-08-29T12:05:09.980000Z",
+   "end_ts": "2025-08-29T12:56:05.690000Z",
    "start_point": {
     "type": "Point",
     "coordinates": [
-     -82.362886,
-     29.076574,
-     525.0
+     -82.373851,
+     27.718506,
+     900.0
     ]
    },
    "end_point": {
     "type": "Point",
     "coordinates": [
-     -82.401317,
-     29.061127,
-     850.0
+     -81.771768,
+     28.521103,
+     1600.0
     ]
    },
-   "start_airport_name": "MARION COUNTY",
-   "end_airport_name": "MARION COUNTY",
-   "point_count": 94,
-   "raw_point_count": 296,
-   "ingest_batch_date": "2025-04-22"
+   "point_count": 22,
+   "raw_point_count": 149,
+   "ingest_batch_date": "2025-08-29"
+  },
+  "a4a85d:2025-08-05T14:42:03Z": {
+   "flight_id": "a4a85d:2025-08-05T14:42:03Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-08-05T14:42:03.130000Z",
+   "end_ts": "2025-08-05T16:57:57.130000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.730472,
+     28.719146,
+     500.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.503593,
+     27.706146,
+     900.0
+    ]
+   },
+   "point_count": 295,
+   "raw_point_count": 1401,
+   "ingest_batch_date": "2025-08-05"
+  },
+  "a4a85d:2025-08-05T14:09:30Z": {
+   "flight_id": "a4a85d:2025-08-05T14:09:30Z",
+   "icao24": "a4a85d",
+   "callsign": "N4EK",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-08-05T14:09:30.210000Z",
+   "end_ts": "2025-08-05T14:19:24.640000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.761062,
+     28.714817,
+     300.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.76257,
+     28.714351,
+     300.0
+    ]
+   },
+   "point_count": 10,
+   "raw_point_count": 14,
+   "ingest_batch_date": "2025-08-05"
+  },
+  "a4a85d:2025-08-05T13:13:45Z": {
+   "flight_id": "a4a85d:2025-08-05T13:13:45Z",
+   "icao24": "a4a85d",
+   "icao_type": "SREY",
+   "emitter_category": "A1",
+   "registration": "N4EK",
+   "operator": "YONGE LUKE A",
+   "start_ts": "2025-08-05T13:13:45.160000Z",
+   "end_ts": "2025-08-05T13:27:00.890000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.627097,
+     28.730713,
+     400.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -81.705322,
+     28.796585,
+     600.0
+    ]
+   },
+   "start_airport_name": "BOB WHITE FLD",
+   "point_count": 19,
+   "raw_point_count": 31,
+   "ingest_batch_date": "2025-08-05"
   }
  },
- "registration": "N4230B",
- "archive_start": "2025-04-21T00:00:00Z",
- "window_start": "2025-04-21T00:00:00Z",
- "last_updated": "2026-10-27T21:21:02Z"
+ "registration": "N4EK",
+ "archive_start": "2025-04-28T00:00:00Z",
+ "window_start": "2025-04-28T00:00:00Z",
+ "last_updated": "2026-10-29T12:44:04Z"
 }
