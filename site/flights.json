@@ -1915,10 +1915,43 @@
    "point_count": 94,
    "raw_point_count": 296,
    "ingest_batch_date": "2025-04-22"
+  },
+  "a5091e:2026-11-04T14:11:02Z": {
+   "flight_id": "a5091e:2026-11-04T14:11:02Z",
+   "icao24": "a5091e",
+   "callsign": "N4230B",
+   "icao_type": "BE35",
+   "emitter_category": "A1",
+   "registration": "N4230B",
+   "model": "BEECH 35 Bonanza",
+   "year": 1956,
+   "operator": "YONGE CHASE L",
+   "start_ts": "2026-11-04T14:11:02.210000Z",
+   "end_ts": "2026-11-04T14:20:00.140000Z",
+   "start_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.508856,
+     28.920456,
+     1725.0
+    ]
+   },
+   "end_point": {
+    "type": "Point",
+    "coordinates": [
+     -82.398269,
+     29.079135,
+     750.0
+    ]
+   },
+   "end_airport_name": "MARION COUNTY",
+   "point_count": 18,
+   "raw_point_count": 34,
+   "ingest_batch_date": "2026-11-04"
   }
  },
  "registration": "N4230B",
  "archive_start": "2025-05-05T00:00:00Z",
  "window_start": "2025-05-05T00:00:00Z",
- "last_updated": "2026-11-05T02:58:59Z"
+ "last_updated": "2026-11-05T19:39:00Z"
 }
